@@ -5,7 +5,7 @@ import cart_icon from "../Assests/cart_icon.png";
 import { useEffect, useState, useRef } from "react";
 
 const Navbar = () => {
-
+//added navbar changes 
     const [menu,setMenu] = useState("shop")
 
   return (
