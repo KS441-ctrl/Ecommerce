@@ -6,6 +6,7 @@ import { useEffect, useState, useRef } from "react";
 
 const Navbar = () => {
 //added navbar changes 
+const [show, setShow] = useState(false);
     const [menu,setMenu] = useState("shop")
 
   return (
