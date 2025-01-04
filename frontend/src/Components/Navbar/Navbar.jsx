@@ -23,7 +23,8 @@ const [show, setShow] = useState(false);
         </ul>
         <div className={styles["nav-login-cart"]}>
             <button>Login</button>
-            <img src={cart_icon} alt=""/>
+            <img src={cart_icon} alt=""/> 
+            //changes made to the default image
             <div className={styles["nav-cart-count"]}>0</div>
         </div>
     </div>
