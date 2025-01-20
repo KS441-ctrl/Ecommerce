@@ -27,6 +27,7 @@ const [show, setShow] = useState(false);
             //changes made to the default image
             <div className={styles["nav-cart-count"]}>0</div>
         </div>
+        //made change in main div
     </div>
   )
 }
